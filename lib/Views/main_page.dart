@@ -1,6 +1,6 @@
 import 'package:coronavirus_information/Components/app_bar.dart';
+import 'package:coronavirus_information/Components/banner_pahlawan.dart';
 import 'package:coronavirus_information/Components/update_terkini.dart';
-import 'package:coronavirus_information/Constants/Warna.dart';
 import 'package:flutter/material.dart';
 
 class MainPage extends StatelessWidget {
@@ -18,6 +18,10 @@ class MainPage extends StatelessWidget {
         child: Column(
           children: [
             UpdateTerkini(),
+            SizedBox(
+              height: 20,
+            ),
+            CardJadiPahlawan(),
           ],
         ),
       ),
