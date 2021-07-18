@@ -1,3 +1,4 @@
+import 'package:coronavirus_information/Views/notifikasi.dart';
 import 'package:flutter/material.dart';
 
 class BuildAppBar extends StatelessWidget {
@@ -22,7 +23,11 @@ class BuildAppBar extends StatelessWidget {
           ),
         ],
       ),
-      actions: [IconButton(onPressed: () {}, icon: Icon(Icons.notifications))],
+      actions: [IconButton(onPressed: () {
+        Navigator.push(context, MaterialPageRoute(builder: (context) {
+          return Notifikasi();
+        }));
+      }, icon: Icon(Icons.notifications))],
       flexibleSpace: SafeArea(
         child: Image.asset('images/background-header.png'),
       ),
