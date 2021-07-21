@@ -2,8 +2,11 @@ import 'package:coronavirus_information/Constants/Warna.dart';
 import 'package:flutter/material.dart';
 
 class UpdateTerkini extends StatelessWidget {
+
+  final String judul;
+
   const UpdateTerkini({
-    Key? key,
+    Key? key, required this.judul
   }) : super(key: key);
 
   @override
@@ -14,7 +17,7 @@ class UpdateTerkini extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Text(
-              "Update Terkini",
+              judul,
               style: TextStyle(fontWeight: FontWeight.bold, fontSize: 17),
             ),
             Text(
