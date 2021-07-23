@@ -1,7 +1,5 @@
-import 'package:coronavirus_information/Components/app_bar.dart';
 import 'package:coronavirus_information/Components/rs_listview.dart';
 import 'package:coronavirus_information/Constants/Warna.dart';
-import 'package:coronavirus_information/Models/rumah_sakit.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

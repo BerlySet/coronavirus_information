@@ -1,4 +1,3 @@
-import 'package:coronavirus_information/Constants/Warna.dart';
 import 'package:coronavirus_information/Views/coming_soon.dart';
 import 'dart:math' as math;
 import 'package:flutter/material.dart';

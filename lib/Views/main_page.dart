@@ -1,6 +1,5 @@
 import 'package:coronavirus_information/Components/app_bar.dart';
 import 'package:coronavirus_information/Components/banner_pahlawan.dart';
-import 'package:coronavirus_information/Components/data_row.dart';
 import 'package:coronavirus_information/Components/layanan_covid.dart';
 import 'package:coronavirus_information/Components/tentang_kami.dart';
 import 'package:coronavirus_information/Components/update_terkini.dart';
